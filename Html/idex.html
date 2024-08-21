@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUDS</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+   <h1>Product Management System</h1>
+
+<!-- input section -->
+<div class="container">
+<div class="inputcontainer">
+<div class="inputsection">
+    <label for="productname">Product Name</label>
+    <input type="text" id="productname" placeholder=" Product Name" required>
+
+    <label for="productcategry"> Product Categry</label>
+    <input type="text" id="productcategry" placeholder="Product Categry"required>
+    
+    <label for="productdescription">Product Description</label>
+    <input type="text" id="productdescription" placeholder="Product Description" required>
+
+    <label for="productprice">Product Price</label>
+    <input type="number" id="productprice" placeholder="Product Price" required>
+</div>
+
+<div class="buttomsection" id="addproduct">
+    <button>
+        Add product
+    </button>
+</div>
+</div>
+
+<!-- output section -->
+<div class="outputcontainer">
+    <div class="search">
+   
+        <input type="text" id ="search" placeholder="search">
+
+        <div class="searchbutton">
+            <button id="btnsearch">search</button>
+        </div>
+
+
+
+
+
+    </div>
+<div class="table">
+    <table >
+        <thead>
+           <tr>
+
+            <th>Index</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Categry</th>
+            <th>Product Description</th>
+            <th>Updata </th>
+            <th id="delete">Delete</th>
+           </tr>
+            
+        </thead>
+        <tbody id="soso" >
+           
+            
+           
+        </tbody>
+    </table>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="../JS/main.js"></script>
+</body>
+</html>
